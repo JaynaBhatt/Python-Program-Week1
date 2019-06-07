@@ -1,0 +1,5 @@
+numberstring = input("please enter comma separated numbers = ")
+list1 = list(numberstring.replace(',',''))
+tuple1 = tuple(numberstring.replace(',',''))
+print(list1)
+print(tuple1)
